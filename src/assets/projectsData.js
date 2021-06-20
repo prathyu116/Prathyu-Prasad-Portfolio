@@ -76,11 +76,11 @@ export const projectsData = [
     {
         projectName: 'Todo-App',
         projectDescription:
-            'This is an simple todo app with basic CRUD opertations.(not hosted)',
+            'This is an simple todo app with basic CRUD opertations.',
         imageUrl: todo,
       
         projectUrl: 'todo',
-        projectUrl: 'https://github.com/prathyu116/React-Todo--App',
+        projectUrl: 'https://react-todo--app--44.herokuapp.com/',
         gitHubUrl: 'https://github.com/prathyu116/React-Todo--App',
     },
     {
@@ -89,7 +89,7 @@ export const projectsData = [
             'This my personal portfolio projects made up with React js',
         imageUrl: port,
       
-        projectUrl: 'http://madhavbahl.tech/portfolio/',
-        gitHubUrl: 'https://github.com/prathyu116/react-Flash-Type',
+        projectUrl: 'https://prathyuprasad-portfolio-55.herokuapp.com/#/',
+        gitHubUrl: 'https://github.com/prathyu116/Prathyu-Prasad-Portfolio',
     },
 ];

@@ -15,7 +15,7 @@ const Home = () => {
 
            {/* {showmodal && <Modal ShowingModal={ShowingModal}/>} */}
             <div className="home-txt">
-                <h1>Hello....👋 I'm Prathyu Prasad</h1>
+                <h1><span className='disable'>Hello....👋</span>  I'm Prathyu  Prasad</h1>
                 <p>Im a Web Devaloper</p>
             </div>
             <div className="home-btn">

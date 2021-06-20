@@ -106,5 +106,17 @@
        margin: 20px;
         
     } */
+    .disable{
+        display: none;
+    }
+    .home-txt p{
+    
+        
+        font-weight: 500;
+        font-size: 1.2rem;
+       
+        
+    
+    }
     
 }
