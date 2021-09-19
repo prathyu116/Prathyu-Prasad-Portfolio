@@ -7,10 +7,19 @@ import Project5 from './brba.jpg'
 import Project6 from './shopp.jpg'
 import olx from './olx.jpg'
 import todo from './todo.jpg'
-
-
+import book from './book.jpg'
+import zomoto from './zomoto.jpg'
 
 export const projectsData = [
+    {
+        projectName: 'Zomato frontend!',
+        projectDescription:
+            'This is a simple front-end of zomoto projects using HTML CSS JAVASCRIPT!',
+        imageUrl: zomoto,
+        
+        projectUrl: 'https://zomato-landin-page.vercel.app/#',
+        gitHubUrl:'https://github.com/prathyu116/Zomato_landin_page',
+    },
     {
         projectName: 'Name It!',
         projectDescription:
@@ -79,9 +88,19 @@ export const projectsData = [
             'This is an simple todo app with basic CRUD opertations.',
         imageUrl: todo,
       
-        projectUrl: 'todo',
+       
         projectUrl: 'https://react-todo--app--44.herokuapp.com/',
         gitHubUrl: 'https://github.com/prathyu116/React-Todo--App',
+    },
+    {
+        projectName: 'Bookmyshaw Clone',
+        projectDescription:
+            'This is an simple bookmyshaw projects with REACT JS + TAILWIND CSS.',
+        imageUrl: book,
+      
+       
+        projectUrl: 'https://github.com/prathyu116/book-my-show-frontEnd',
+        gitHubUrl: 'https://github.com/prathyu116/book-my-show-frontEnd',
     },
     {
         projectName: 'Portfolio Website',
