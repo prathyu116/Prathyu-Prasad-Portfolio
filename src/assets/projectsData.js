@@ -12,7 +12,7 @@ import zomoto from './zomoto.jpg'
 
 export const projectsData = [
     {
-        projectName: 'Zomato frontend!',
+        projectName: 'Zomato frontend-clone',
         projectDescription:
             'This is a simple front-end of zomoto projects using HTML CSS JAVASCRIPT!',
         imageUrl: zomoto,
@@ -110,5 +110,14 @@ export const projectsData = [
       
         projectUrl: 'https://prathyuprasad-portfolio-55.herokuapp.com/#/',
         gitHubUrl: 'https://github.com/prathyu116/Prathyu-Prasad-Portfolio',
+    },
+    {
+        projectName: 'zomata backend-clone',
+        projectDescription:
+            'Designing and building APIs for the master project ie. Zomato Clone with node, express & mongoDB',
+        imageUrl: zomoto,
+      
+        projectUrl: 'https://github.com/prathyu116/zomoto-master-project',
+        gitHubUrl: 'https://github.com/prathyu116/zomoto-master-project',
     },
 ];
