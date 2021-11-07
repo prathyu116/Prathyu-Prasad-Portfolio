@@ -13,6 +13,7 @@ import './Navbar.css'
         const projectClass =location.pathname==='/projects' ? 'active-item1':'' ;
         const skillClass =location.pathname==='/skills' ? 'active-item1':'' ;
         const contactClass =location.pathname==='/contact' ? 'active-item1':'' ;
+        const achievementClass =location.pathname==='/achievement' ? 'active-item1':'' ;
         return (
             <Menu>
                 <Link to='/' className={`menu-item ${homeClass}`}>
@@ -31,8 +32,13 @@ import './Navbar.css'
                     Skills
 
                 </Link>
+              
                 <Link to='/contact' className={`menu-item ${contactClass}`}>
                     Contact
+
+                </Link>
+                <Link to='/achievement' className={`menu-item ${achievementClass}`}>
+                Achievement
 
                 </Link>
         

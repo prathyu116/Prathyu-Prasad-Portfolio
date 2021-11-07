@@ -8,6 +8,7 @@ import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
 import Navbar from '../Navbar/Navbar'
 import Gohome from '../Gohome/Gohome'
+import Achievement from '../Achievement/Achievement'
 const App = () => {
 
    
@@ -33,6 +34,9 @@ const App = () => {
 
                 <Route path='/contact'>
                     <Contact />
+                </Route>
+                <Route path='/achievement'>
+                  <Achievement />
                 </Route>
                <Gohome />
             </Router>
