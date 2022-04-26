@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
-import {bubble as Menu} from 'react-burger-menu'
+import {slide as Menu} from 'react-burger-menu'
 import {Link,withRouter} from 'react-router-dom'
+// import Particles from "react-tsparticles";
+// import ParticleConfigs from "../config/particle.configs";
+
 import './Navbar.css'
 
  class  Navbar extends Component {
@@ -15,35 +18,31 @@ import './Navbar.css'
         const contactClass =location.pathname==='/contact' ? 'active-item1':'' ;
         const achievementClass =location.pathname==='/achievement' ? 'active-item1':'' ;
         return (
+          <>
             <Menu>
-                <Link to='/' className={`menu-item ${homeClass}`}>
-                    Home
+              {/* <Particles params={ParticleConfigs}></Particles> */}
+              <Link to="/" className={`menu-item ${homeClass}`}>
+                Home
+              </Link>
+              <Link to="/about" className={`menu-item ${aboutClass}`}>
+                About
+              </Link>
+              <Link to="/projects" className={`menu-item ${projectClass}`}>
+                Projcts
+              </Link>
+              <Link to="/skills" className={`menu-item ${skillClass}`}>
+                Skills
+              </Link>
 
-                </Link>
-                <Link to='/about' className={`menu-item ${aboutClass}`}>
-                    About
-
-                </Link>
-                <Link to='/projects' className={`menu-item ${projectClass}`}>
-                    Projcts
-
-                </Link>
-                <Link to='/skills' className={`menu-item ${skillClass}`}>
-                    Skills
-
-                </Link>
-              
-                <Link to='/contact' className={`menu-item ${contactClass}`}>
-                    Contact
-
-                </Link>
-                <Link to='/achievement' className={`menu-item ${achievementClass}`}>
+              <Link to="/contact" className={`menu-item ${contactClass}`}>
+                Contact
+              </Link>
+              <Link to="/achievement" className={`menu-item ${achievementClass}`}>
                 Achievement
-
-                </Link>
-        
-      </Menu>
-        )
+              </Link>
+            </Menu>
+          </>
+        );
     }
 }
 export default withRouter(Navbar)

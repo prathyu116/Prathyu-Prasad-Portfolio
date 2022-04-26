@@ -24,8 +24,10 @@ select:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    align-content: center;
+    justify-content: center; 
+     align-content: center;
+    background:linear-gradient(59.97deg,#041a1d 0.79%,#383551 79.2%);
+
     
 
 

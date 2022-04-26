@@ -1,97 +1,68 @@
-.vector-frame{
-    position: absolute;
-    z-index: -10;
-    left: 0;
-    bottom: 0;
-    width: 55%;
-
+.vector-frame {
+  position: absolute;
+  z-index: -10;
+  left: 0;
+  bottom: 0;
+  width: 55%;
 }
-.about-vector{
-    display: block;
-    max-height: 100%;
-    max-width: 100%;
-    
-
-
+.about-vector {
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
 }
-.about-main{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.about-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.about-main-left img {
+  width: 400px;
+}
+.first-about {
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.right-about {
+}
+
+.right-about img {
+  margin: 4rem;
+  width: 15rem;
+  height: auto;
+  border-radius: 5%;
+  box-shadow: 7px 7px 0 0 #7040c2;
+
+  filter: grayscale(100%);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.right-about img:hover {
+  filter:none;
+}
+.left-about {
+}
+.education{
+  width: 100%;
+}
+@media only screen and (max-width: 640px) {
+  .vector-frame {
+    width: 90%;
+  }
+  .about-main-left img {
+    width: 90%;
+  }
+  .about-main-right {
     width: 100%;
-    margin-top: 100px;
-   
-   
-  
-}
-/* .about-main-left{
-   
-  
-   
-    
-    
-} */
-/* .about-main-right{
-   
     display: flex;
+
     flex-direction: column;
-    justify-content: center;
-   margin: 0 30px;
-
-} */
-
-/* .about-main-right,
-.about-main-left {
-    width: 50%;
-    
-
-} */
-/* .about-main-right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   
-}
-.about-main-left{
-    display: flex;
-    justify-content: flex-end;
-} */
-
-.about-main-left img{
-    width:400px;
-    
-  
-    
-}
-/* .about-main-right img{
-    width:350px;
-    
-  
-    
-} */
-@media only screen and (max-width:640px) {
-    .vector-frame{
-       
-        width: 90%;
-    
-    }
-    .about-main-left img{
-        width: 90%;
-        
-    }
-    .about-main-right{
-        width: 100%;
-        display: flex;
-        
-        flex-direction: column;
-        /* justify-content: center;
+    /* justify-content: center;
         align-items: center; */
-        text-align: center;
-
-        
-       
-    }
-
-
+    text-align: center;
+  }
 }
-    
